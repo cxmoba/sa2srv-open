@@ -1,0 +1,10 @@
+# MAP,FLAGS - map attributes. safe = no random encounters (towns / interiors).
+# Maps not listed here roll encounters if encount.txt has an entry for them.
+100,safe
+10000,safe
+10001,safe
+10002,safe
+10003,safe
+10004,safe
+10005,safe
+10006,safe

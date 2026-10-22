@@ -1,0 +1,24 @@
+# Hand-made warps: MAP,X,Y,TO_MAP,TO_X,TO_Y[,R]
+#   Sub-cell coordinates. Triggers within Chebyshev radius R of (MAP,X,Y); lands on (TO_X,TO_Y).
+#   R=1 because the client does not report every step (only on start/turn/stop) and cannot reach cell 0 at the map edge.
+# Most exits are generated at startup from the client's own mapdata/*.bin (JUMP/JUM2 sections, see -mapdir);
+# entries here take priority and cover maps whose mapdata has no exit sections (e.g. town 100).
+# Coordinates were found by walking in a test client; they are plain coordinates, not client data.
+# Map 100 <-> small yard / interior maps
+100,177,158,10006,3,17,1
+10006,0,18,100,175,160,1
+100,103,64,10002,16,25,1
+10002,16,28,100,101,66,1
+100,146,170,10003,3,14,1
+10003,0,14,100,144,172,1
+100,165,84,10004,16,25,1
+10004,16,28,100,163,86,1
+100,134,68,10000,18,29,1
+10000,18,32,100,132,70,1
+100,140,76,10000,4,15,1
+10000,1,15,100,138,78,1
+# Map 100 <-> field map 1
+100,119,47,1,297,797,1
+1,299,799,100,121,50,1
+100,49,126,1,228,870,1
+1,230,877,100,52,128,1

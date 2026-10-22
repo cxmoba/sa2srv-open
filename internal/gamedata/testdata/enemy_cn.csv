@@ -1,0 +1,5 @@
+id,name,base_species,cgno,color,species_from_cg
+0,Rocky,0,25000,0,0
+1,Rocky Brute,0,26000,1,0
+1001,Rocky+A,0,25000,0,0
+10,Lizard,10,25010,0,10

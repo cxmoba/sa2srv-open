@@ -1,0 +1,20 @@
+# EXAMPLE item table (placeholder names/descriptions; numbers are client item ids and icon sprite numbers).
+# Columns (Tab or multiple spaces; description last, may contain spaces):
+#   no  name  kind  val  loc  stack  price  icon  drop  desc
+#   kind: food = restores val HP (player or pet); weapon = attack +val; armor = defense +val; misc = no effect
+#   loc : S04b0 slot code. 0x13 food page, 0x14 materials page, 0x15 misc page;
+#         equipment: 1 head, 2 body, 3..10 hand (weapon), 11/12 accessory.
+#   drop: drop chance per defeated monster in 1/1000, 0 = never.
+# A full table can be generated from your own client with tools/cn/gen_items_cn.py (-> data/items_cn.txt);
+# entries in this file override it by item number.
+20625	Apple	food	10	0x13	99	2	35722	300	A common apple. HP+10
+20626	Big Apple	food	20	0x13	99	4	35724	100	A big apple. HP+20
+20315	Meat	food	40	0x13	99	60	35652	50	Plain meat. HP+40
+20021	Shell Meat	food	60	0x13	99	15	35657	0	HP+60
+1	Worn Stone Axe	weapon	6	3	1	130	35000	20	Axe Lv1 ATK+6
+2	Small Stone Axe	weapon	10	3	1	310	35001	0	Axe Lv1 ATK+10
+99	Worn Stone Spear	weapon	8	4	1	320	35137	0	Spear Lv1 ATK+8
+10082	Straw Hat	armor	2	1	1	24	35404	20	Hat Lv1 DEF+2
+10151	Rough Wood Armor	armor	5	2	1	45	35472	0	Armor Lv1 DEF+5
+10155	Stone Armor	armor	8	2	1	100	35448	0	Armor Lv1 DEF+8
+48038	Odd Berry	misc	0	0x15	99	5	35718	100	A strange berry. Someone might buy it.

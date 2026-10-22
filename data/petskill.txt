@@ -1,0 +1,6 @@
+# EXAMPLE pet skills (placeholder names): ID,NAME,DESCRIPTION,FUNC,PARAMS,FP_COST
+#   FUNC Mighty = damage skill (params "倍N 回避M": damage xN, hit chance -M%); Heal = heal skill (params "HP N").
+#   Optional param "目标 N" = S0530 +0x24 targeting mode: 0 single enemy, 1 self.
+#   (The parameter keywords are parsed as written above.)
+40,Heavy Blow,Deals double damage but is less accurate,Mighty,倍2 回避30,5
+661,Mend,The pet restores its own HP,Heal,HP 30 目标 1,10

@@ -1,0 +1,16 @@
+# build output
+/sa2srv
+/bin/
+*.exe
+# runtime
+saac.db
+*.db
+*.log
+__pycache__/
+# data generated from YOUR OWN client / SA1 data - never commit
+/data_cn/
+/data/items_cn.txt
+/data/sa2map.txt
+*.bin
+*.anz
+*.ana

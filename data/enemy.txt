@@ -1,0 +1,7 @@
+# EXAMPLE enemy instances (hand-written placeholders, NOT game data). Same layout as SA1 enemy1.txt:
+# NOTE,TACTICSOPTION,ACT_CONDITION,ID,TEMPNO,LV_MIN,LV_MAX,CREATEMAXNUM,CREATEMINNUM,TACTICS,EXP,DUELPOINT,STYLE,PETFLG,ITEM1..10,ITEMPROB1..10
+#   EXP -1 = formula; PETFLG 1 = can be captured; ITEMPROBn = drop chance in 1/1000.
+Rockling Lv1-2,at:1;1;1|gu:0|es:0|wa:0;0;0;0;0;0;0;,,140,1,1,2,2,1,1,-1,-1,0,1,20625,,,,,,,,,,300,,,,,,,,,
+Rockling Brute Lv3-5,at:1;1;1|gu:0|es:0|wa:0;0;0;0;0;0;0;,,141,2,3,5,2,1,1,-1,-1,0,1,20626,,,,,,,,,,100,,,,,,,,,
+Fern Beetle Lv2-4,at:1;1;1|gu:0|es:0|wa:0;0;0;0;0;0;0;,,142,11,2,4,3,1,1,-1,-1,0,1,48038,,,,,,,,,,100,,,,,,,,,
+Crested Lizard Lv3-6,at:1;1;1|gu:0|es:0|wa:0;0;0;0;0;0;0;,,143,101,3,6,2,1,1,-1,-1,0,1,,,,,,,,,,,,,,,,,,,,
